@@ -6,6 +6,13 @@ def fizbuzz(int)
   elsif(int%5==0)
     puts "buzz"
   elsif(int%3==0&&int%5==0)
+=begin
+  end
+  if(int%5==0)
+    puts "buzz"
+  end
+  if(int%3==0&&int%5==0)
+=end
   puts "fizbuzz"
 else
   puts" enter other number"
